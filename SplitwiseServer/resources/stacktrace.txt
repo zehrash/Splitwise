@@ -1,0 +1,59 @@
+java.io.IOException
+	at user.UserFunctionality.addFriend(UserFunctionality.java:60)
+	at comands.CommandManager.checkCommand(CommandManager.java:21)
+	at server.Server.main(Server.java:86)
+
+java.io.IOException
+	at user.UserFunctionality.addFriend(UserFunctionality.java:61)
+	at comands.CommandManager.checkCommand(CommandManager.java:21)
+	at server.Server.main(Server.java:86)
+
+  java.io.FileNotFoundException: java.io.FileOutputStream@4c203ea1 (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at user.UserFunctionality.getNotified(UserFunctionality.java:262)
+	at user.UserFunctionality.login(UserFunctionality.java:316)
+	at comands.CommandManager.checkCommand(CommandManager.java:29)
+	at server.Server.main(Server.java:66)
+
+java.io.FileNotFoundException: java.io.FileOutputStream@587c290d (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:110)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at user.UserFunctionality.getNotified(UserFunctionality.java:262)
+	at user.UserFunctionality.login(UserFunctionality.java:316)
+	at comands.CommandManager.checkCommand(CommandManager.java:29)
+	at server.Server.main(Server.java:66)
+
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at server.Server.main(Server.java:54)
+
+opotried to check payment history
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedReader.ensureOpen(BufferedReader.java:122)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:319)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at user.UserFunctionality.printPaymentHistory(UserFunctionality.java:224)
+	at comands.CommandManager.checkCommand(CommandManager.java:78)
+	at server.Server.main(Server.java:64)
+
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at server.Server.main(Server.java:53)
+
